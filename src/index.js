@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Greet from './components/Greet';
+import Welcome from './components/Welcome'
+import Message from './components/Message'
+
 
 ReactDOM.render(
   <React.StrictMode>
+    <Message />
     <App />
+    <Greet />
+    <Welcome />
   </React.StrictMode>,
   document.getElementById('root')
 );
