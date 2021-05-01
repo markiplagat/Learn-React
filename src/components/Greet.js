@@ -1,4 +1,16 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-const Greet = () => <h1>Hello World</h1>
-export default Greet;
+class Greet extends Component{
+    render(){
+        const {name, heroName} = this.props
+        return (
+            <div>
+            <h1>
+                Hello {this.props.name} aka {this.props.heroName}
+            </h1>
+            </div>
+        )
+    }
+    }
+   
+export default Greet

@@ -15,12 +15,12 @@ class Message extends Component {
     }
     render(){
         return (
-            <div>
-                <h1>
+        <div>
+            <h1>
                 {this.state.message}
             </h1>
             <button onClick={() => this.changeMessage()}>Subscribe</button>
-            </div>
+        </div>
         )
             
     } 
