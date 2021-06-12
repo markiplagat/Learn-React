@@ -4,6 +4,7 @@ import Counter from './components/Counter'
 import Message from './components/Message'
 import Welcome from './components/Welcome'
 import Greet from './components/Greet'
+import ClickOutside from './components/ClickOutside';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Greet name="Mark" heroName="oj" />
     <Welcome />
     <EventBind />
+    <ClickOutside />
     </div>
   );
 }
