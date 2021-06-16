@@ -8,6 +8,8 @@ import ClickOutside from './components/ClickOutside';
 import StylingBasics from './components/StylingBasics';
 import FormHandling from './components/FormHandling';
 import Mounting from './components/Mounting';
+import RefDemo from './components/RefDemo';
+import SayHi from './components/SayHi';
 
 function App() {
   return (
@@ -17,10 +19,12 @@ function App() {
     <Message />
     <Greet name="Mark" heroName="oj" />
     <Welcome />
-    <FormHandling /> */}
-    {/* <EventBind /> */}
-    {/* <ClickOutside /> */}
+    <FormHandling />
+    <EventBind />
+    <ClickOutside />
     <Mounting />
+    <RefDemo /> */}
+    <SayHi />
     </div>
   );
 }
