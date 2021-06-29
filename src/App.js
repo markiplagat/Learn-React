@@ -10,21 +10,12 @@ import FormHandling from './components/FormHandling';
 import Mounting from './components/Mounting';
 import RefDemo from './components/RefDemo';
 import SayHi from './components/SayHi';
+import Arrays from './components/Arrays';
 
 function App() {
   return (
     <div className="App">
-    {/* <StylingBasics />
-    <Counter />
-    <Message />
-    <Greet name="Mark" heroName="oj" />
-    <Welcome />
-    <FormHandling />
-    <EventBind />
-    <ClickOutside />
-    <Mounting />
-    <RefDemo /> */}
-    <SayHi />
+      <Arrays />
     </div>
   );
 }

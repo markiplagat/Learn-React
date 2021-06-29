@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 class RefDemo extends Component {
+    // var amount = 23,000;
     constructor(props) {
         super(props)
         this.inputRef = React.createRef()
@@ -25,13 +26,28 @@ class RefDemo extends Component {
     handleClick = () => {
         alert(this.inputRef.current.value)
     }
+    removeCommas(str) {
+        while (str.search(",") >= 0) {
+            str = (str + "").replace(',', '');
+        }
+        return str;
+    };
     
     render() {
+        // eslint-disable-next-line no-unused-vars
+        const amount = '20,000'.split(',').join('');
+        const a = parseInt(amount);
+        // const b = (a.split(/\,/g,' '));
+
         return (
             <div>
-                <input type="text" ref={this.setcbRef}></input>
+                {amount}<br></br>
+                {a}
+                {/* <input type="text" value={this.state.amount}></input> */}
+                {/* {`ksh ${(this.state.amount).replace(/\,/g,'')}`} */}
+                {/* {(23,333,333).split(',').join('')} */}
                 {/* <input type="text" ref={this.inputRef}></input> */}
-                <button onClick={this.handleClick}>Ref</button>
+                {/* <button onClick={this.handleClick}>Ref</button> */}
             </div>
         )
     }
