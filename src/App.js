@@ -11,11 +11,13 @@ import Mounting from './components/Mounting';
 import RefDemo from './components/RefDemo';
 import SayHi from './components/SayHi';
 import Arrays from './components/Arrays';
+import UseStateHook from './components/UseStateHook';
+import Lists from './components/Lists';
 
 function App() {
   return (
     <div className="App">
-      <Arrays />
+      <Lists />
     </div>
   );
 }

@@ -24,13 +24,13 @@ class Child extends React.Component {
     }
 }
 
-class Child extends React.Component {
-    render() {
-        return (
-            <button onClick={this.props.clickHandler}>
-                Add One More
-            </button>
-        )
-    }
-}
+// class Child extends React.Component {
+//     render() {
+//         return (
+//             <button onClick={this.props.clickHandler}>
+//                 Add One More
+//             </button>
+//         )
+//     }
+// }
 export default Child;
