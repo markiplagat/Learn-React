@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.1.10",
     "ansi-html": "0.0.7",
     "d3-ease": "^3.0.1",
+    "glob-parent": "^5.1.2",
     "immer": "^9.0.7",
     "is-svg": "^4.3.2",
     "react": "^17.0.2",
