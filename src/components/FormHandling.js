@@ -36,7 +36,7 @@ class FormHandling extends Component {
     render() {
         const { username, comments, topic} = this.state
         return (
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit} style = {{padding: '18px'}}>
                <div>
                    <label>
                        Username
@@ -50,9 +50,9 @@ class FormHandling extends Component {
                <div>
                    <label>Topic</label>
                    <select value={topic} onChange={this.handleOptionChange}>
-                       <option value="react">React</option>
-                       <option value="vue">Vue</option>
-                       <option value="angular">Angular</option>
+                       <option key="1" value="react">React</option>
+                       <option key="2" value="vue">Vue</option>
+                       <option key="3" value="angular">Angular</option>
                    </select>
                </div>
                <button>Submit</button>

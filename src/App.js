@@ -18,7 +18,7 @@ import LightsSwitch from "./components/LightsSwitch";
 function App() {
   return (
     <div className="App">
-      <LightsSwitch />
+      <FormHandling />
     </div>
   );
 }
