@@ -1,3 +1,5 @@
+import React from 'react';
+
 const BlogList = (props) => {
     // or use
 //const Bloglist = ({blogs}) => {
