@@ -1,7 +1,7 @@
 // Shows the communication of the parent to the child.
-import React from 'react';
+import React, { Component } from 'react';
 
-class Parent extends React.Component {
+class Parent extends Component {
     render() {
         const variable =5;
         return (
@@ -10,12 +10,12 @@ class Parent extends React.Component {
                 <Child message={variable} />
             </div>
         );
-    }
-}
+    };
+};
 
 class Child extends React.Component {
     render() {
         return <h1>{this.props.message}</h1>
-    }
-}
+    };
+};
 export default Parent;

@@ -7,7 +7,7 @@ class Greet extends Component{
             name: "Mark",
             heroName: "Coder"
         }
-    }
+    };
     render(){
         return (
             <div>
@@ -16,7 +16,7 @@ class Greet extends Component{
             </h1>
             </div>
         )
-    }
-    }
+    };
+};
    
 export default Greet;

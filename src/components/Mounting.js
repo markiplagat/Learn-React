@@ -9,32 +9,32 @@ class Mounting extends Component {
              name: 'mark'
         }
         console.log("Mounting constructor")
-    }
+    };
 
     static getDerivedStateFromProps(props, state){
         console.log('Mounting getDerivedStateFromProps')
         return null
-    }
+    };
     shouldComponentUpdate() {
         console.log("Mounting shouldComponentUpdate")
         return true
-    }
+    };
 
     getSnapshotBeforeUpdate(prevProps, prevState) {
         console.log("Mounting getSnapShotBeforeUpdate")
-    }
+    };
     componentDidUpdate() {
         console.log("Mounting componentDidUpdate")
-    }
+    };
 
     componentDidMount() {
         console.log("Mounting componentDidMount")
-    }
+    };
     changeState = () => {
         this.setState({
             name: 'Codevolution'
         })
-    }
+    };
     render() {
         console.log("Mounting render")
         return (
@@ -44,6 +44,6 @@ class Mounting extends Component {
                 <MountingChildern />
             </div>
         )
-    }
-}
+    };
+};
 export default Mounting;

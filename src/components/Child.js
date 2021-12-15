@@ -2,7 +2,7 @@
 import React from 'react';
 
 class Child extends React.Component {
-    constructer(props) {
+    constructor(props) {
         super(props);
         this.state = { count: 0 };
 

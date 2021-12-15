@@ -15,5 +15,5 @@ const Hello = () => {
         {id: 'Hello', className: 'Hello'},
         React.createElement('h1', null, "Hello There")
         )
-}
+};
 export default Hello;

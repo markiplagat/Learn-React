@@ -13,7 +13,7 @@ class RefDemo extends Component {
         this.state = {
              
         }
-    }
+    };
 
     componentDidMount() {
         if (this.cbRef) {
@@ -21,11 +21,11 @@ class RefDemo extends Component {
         }
         // this.inputRef.current.focus()
         // console.log(this.inputRef)
-    }
+    };
 
     handleClick = () => {
         alert(this.inputRef.current.value)
-    }
+    };
     removeCommas(str) {
         while (str.search(",") >= 0) {
             str = (str + "").replace(',', '');
@@ -41,7 +41,7 @@ class RefDemo extends Component {
 
         return (
             <div>
-                {amount}<br></br>
+                {amount}<br/>
                 {a}
                 {/* <input type="text" value={this.state.amount}></input> */}
                 {/* {`ksh ${(this.state.amount).replace(/\,/g,'')}`} */}
@@ -50,7 +50,7 @@ class RefDemo extends Component {
                 {/* <button onClick={this.handleClick}>Ref</button> */}
             </div>
         )
-    }
-}
+    };
+};
 
-export default RefDemo
+export default RefDemo;

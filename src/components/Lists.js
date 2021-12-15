@@ -12,5 +12,5 @@ const Lists = (props) => {
             <BlogList blogs={blogs}/>
         </div>
     );
-}
+};
 export default Lists;

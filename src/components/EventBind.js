@@ -7,13 +7,13 @@ class EventBind extends Component {
         this.state = {
              message: "Click Here"
         }
-    }
+    };
 
     clickHandler() {
         this.setState ({
             message: 'You are a Good Person. Cheers!!'
         })
-    }
+    };
     
     render() {
         return (
@@ -24,7 +24,7 @@ class EventBind extends Component {
                 //alternatively we can use the arrow function
             </div>
         )
-    }
-}
+    };
+};
 
-export default EventBind
+export default EventBind;

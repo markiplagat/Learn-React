@@ -2,17 +2,17 @@ import React, { Component } from 'react'
 
 class Message extends Component {
 
-    constructor() {
-        super() /*Parent class. call constructor of the parent class and to access parent's properties*/
+    constructor(props) {
+        super(props) /*Parent class. call constructor of the parent class and to access parent's properties*/
         this.state = {
             message: 'Welcome Visitor'
         }
-    }
+    };
     changeMessage() {
         this.setState({
             message: 'Thank you for subscribing'
         })
-    }
+    };
     render(){
         return (
         <div>
@@ -23,6 +23,6 @@ class Message extends Component {
         </div>
         )
             
-    } 
-}
-export default Message
+    };
+};
+export default Message;

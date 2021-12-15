@@ -7,7 +7,7 @@ export default class Counter extends Component {
         this.state = {
              count: 0
         }
-    }
+    };
 
     increment() {
     //     this.setState({
@@ -16,11 +16,11 @@ export default class Counter extends Component {
     //     () => {console.log('Callback value', this.state.count)}
     //     )
 
-        this.setState((prevState, props) => ({
+        this.setState((prevState) => ({
             count: prevState.count + 1
         }))
         console.log(this.state.count)
-    }
+    };
     
     incrementFive() {
         this.increment()
@@ -28,7 +28,7 @@ export default class Counter extends Component {
         this.increment()
         this.increment()
         this.increment()
-    }
+    };
     render() {
         return (
             <div>

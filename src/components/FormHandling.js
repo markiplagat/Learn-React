@@ -9,29 +9,29 @@ class FormHandling extends Component {
              comments: '',
              topic: 'react',
         }
-    }
+    };
 
     handleUsernameChange = event => {
         this.setState({
             username: event.target.value
         })
-    }
+    };
 
     handleOptionChange = event => {
         this.setState({
             topic: event.target.value
         })
-    }
+    };
 
     handleCommentsChange = event => {
         this.setState({
             comments: event.target.value
         })
-    }
+    };
     handleSubmit = event => {
         alert(`${this.state.username} ${this.state.comments} ${this.state.topic}`)
         event.preventDefault()
-    }
+    };
     
     render() {
         const { username, comments, topic} = this.state
@@ -41,7 +41,7 @@ class FormHandling extends Component {
                    <label>
                        Username
                    </label>
-                   <input type="text" value={username} onChange={this.handleUsernameChange}></input>
+                   <input type="text" value={username} onChange={this.handleUsernameChange}/>
                </div> 
                <div>
                    <label>Comments</label>
@@ -59,6 +59,6 @@ class FormHandling extends Component {
             </form>
 
         )
-    }
-}
-export default FormHandling
+    };
+};
+export default FormHandling;
