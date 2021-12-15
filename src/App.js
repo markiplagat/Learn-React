@@ -13,13 +13,12 @@ import SayHi from './components/SayHi';
 import Arrays from './components/Arrays';
 import UseStateHook from './components/UseStateHook';
 import Lists from './components/Lists';
-import LightsSwitch from "./components/LightsSwitch";
 import TimerUseRef from "./components/TimerUseRef";
 
 function App() {
   return (
     <div className="App">
-      <TimerUseRef />
+      <Greet />
     </div>
   );
 }

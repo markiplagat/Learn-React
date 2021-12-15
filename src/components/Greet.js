@@ -1,16 +1,22 @@
 import React, { Component } from 'react'
 
 class Greet extends Component{
+    constructor(props){
+        super(props);
+        this.state = {
+            name: "Mark",
+            heroName: "Coder"
+        }
+    }
     render(){
-        const {name, heroName} = this.props
         return (
             <div>
             <h1>
-                Hello {this.props.name} aka {this.props.heroName}
+                Hello {this.state.name} aka {this.state.heroName}
             </h1>
             </div>
         )
     }
     }
    
-export default Greet
+export default Greet;
