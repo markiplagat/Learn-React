@@ -7,17 +7,17 @@ export default class MountingChildern extends Component {
         this.state = {
              name: 'mark'
         }
-        console.log("MountingChildern constructor")
+        console.log("MountingChildren constructor")
     };
 
     static getDerivedStateFromProps (state, props){
-        console.log("MountingChildern getDerivedStateProps")
+        console.log("MountingChildren getDerivedStateProps")
         return null
 
     };
 
     componentDidMount() {
-        console.log("MountingChildern componentDidMount")
+        console.log("MountingChildren componentDidMount")
         return null
     };
 
@@ -27,7 +27,7 @@ export default class MountingChildern extends Component {
     };
     
     componentDidUpdate() {
-        console.log("MountingChildren ComponentDidUpadte")
+        console.log("MountingChildren ComponentDidUpdate")
     };
 
     
