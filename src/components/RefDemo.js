@@ -43,11 +43,11 @@ class RefDemo extends Component {
             <div>
                 {amount}<br/>
                 {a}
-                {/* <input type="text" value={this.state.amount}></input> */}
-                {/* {`ksh ${(this.state.amount).replace(/\,/g,'')}`} */}
-                {/* {(23,333,333).split(',').join('')} */}
-                {/* <input type="text" ref={this.inputRef}></input> */}
-                {/* <button onClick={this.handleClick}>Ref</button> */}
+                 <input type="text" value={this.state.amount}/>
+                 {`ksh ${(this.state.amount).replace(/\,/g,'')}`}
+                 {(23,333,333).split(',').join('')}
+                 <input type="text" ref={this.inputRef}/>
+                 <button onClick={this.handleClick}>Ref</button>
             </div>
         )
     };
