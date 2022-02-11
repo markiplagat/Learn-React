@@ -14,11 +14,13 @@ import Arrays from './components/Arrays';
 import UseStateHook from './components/UseStateHook';
 import Lists from './components/Lists';
 import TimerUseRef from "./components/TimerUseRef";
+import UseEffect from "./components/UseEffect";
+// import RoughWork from "./components/roughWork";
 
 function App() {
   return (
     <div className="App">
-      <Greet />
+      <UseEffect />
     </div>
   );
 }
