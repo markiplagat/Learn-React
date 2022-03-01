@@ -14,7 +14,6 @@ class Child extends React.Component {
   }
 
   render() {
-    const varible = 5;
     return (
       <div>
         Count: {this.state.count}

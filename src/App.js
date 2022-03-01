@@ -20,7 +20,7 @@ import UseEffect from './components/UseEffect';
 function App() {
   return (
     <div className="App">
-      <UseEffect />
+      <FormHandling />
     </div>
   );
 }

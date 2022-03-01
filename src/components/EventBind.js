@@ -19,9 +19,9 @@ class EventBind extends Component {
     return (
       <div>
         <div>{this.state.message}</div>
-        //using the bind method
+        {/*using the bind method*/}
         <button onClick={this.clickHandler.bind(this)}>Click</button>
-        //alternatively we can use the arrow function
+        {/*alternatively we can use the arrow function*/}
       </div>
     );
   }

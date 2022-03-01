@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MountingChildern from './MountingChildern';
+import MountingChildren from './MountingChildern';
 
 class Mounting extends Component {
   constructor(props) {
@@ -41,7 +41,7 @@ class Mounting extends Component {
       <div>
         Mounting render
         <button onClick={this.changeState}>Change state</button>
-        <MountingChildern />
+        <MountingChildren />
       </div>
     );
   }

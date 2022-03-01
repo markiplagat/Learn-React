@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import BlogList from './BlogList';
 
-const Lists = (props) => {
+const Lists = () => {
   const [blogs, setBlogs] = useState([
     { title: 'My new website', body: 'https wwww', author: 'Mark', id: 1 },
     { title: 'There is a party', body: 'Lorem ipsum ....', author: 'Kip', id: 2 },

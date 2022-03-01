@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dfa9652-cbed-4d48-92a1-4e1e2fce62cb" name="Default Changelist" comment="Fix authorization bypass">
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+    <list default="true" id="2dfa9652-cbed-4d48-92a1-4e1e2fce62cb" name="Default Changelist" comment="Format code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BlogList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Child.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Child.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ClickOutside.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ClickOutside.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EventBind.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EventBind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FormHandling.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormHandling.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Lists.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Lists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Mounting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Mounting.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +78,8 @@
       <workItem from="1631134736596" duration="2861000" />
       <workItem from="1637913891227" duration="6703000" />
       <workItem from="1645777701896" duration="2298000" />
-      <workItem from="1646146520567" duration="215000" />
+      <workItem from="1646146520567" duration="1024000" />
+      <workItem from="1646147849132" duration="362000" />
     </task>
     <task id="LOCAL-00001" summary="Using useRef">
       <created>1637914713911</created>
@@ -131,7 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645779416184</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add prettier">
+      <created>1646146797963</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1646146797963</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Format code">
+      <created>1646146883590</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1646146883590</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +175,9 @@
     <MESSAGE value="Fix immer" />
     <MESSAGE value="Fix glob parent dependency" />
     <MESSAGE value="Fix authorization bypass" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix authorization bypass" />
+    <MESSAGE value="Add prettier" />
+    <MESSAGE value="Format code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Format code" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

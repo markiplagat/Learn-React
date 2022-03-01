@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class FormHandling extends Component {
+class FormHandling extends React.Component {
   constructor(props) {
     super(props);
 
@@ -30,7 +30,7 @@ class FormHandling extends Component {
   };
   handleSubmit = (event) => {
     alert(`${this.state.username} ${this.state.comments} ${this.state.topic}`);
-    event.preventDefault();
+    // event.preventDefault();
   };
 
   render() {

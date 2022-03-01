@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 const UseStateHook = () => {
-  // let name = "Mark"
   const [name, setName] = useState('Mark');
 
   const handleClick = () => {
@@ -9,7 +8,7 @@ const UseStateHook = () => {
   };
   return (
     <div>
-      <h2>{name}</h2>'<button onClick={handleClick}>Change</button>
+      <h2>{name}</h2><button onClick={handleClick}>Change</button>
     </div>
   );
 };
