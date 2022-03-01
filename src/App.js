@@ -15,12 +15,12 @@ import UseStateHook from './components/UseStateHook';
 import Lists from './components/Lists';
 import TimerUseRef from './components/TimerUseRef';
 import UseEffect from './components/UseEffect';
-// import RoughWork from "./components/roughWork";
+import Fetch from "./components/Fetch";
 
 function App() {
   return (
     <div className="App">
-      <FormHandling />
+      <Fetch />
     </div>
   );
 }
