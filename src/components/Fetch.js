@@ -5,7 +5,7 @@ export default function Fetch() {
     display: 'flex',
     justifyContent: 'flex-start',
     flexWrap: 'wrap',
-    marginLeft: '10px',
+    margin: '10px auto',
   };
   const [picture, setPicture] = useState([]);
   useEffect(() => {
