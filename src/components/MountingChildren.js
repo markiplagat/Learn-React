@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class MountingChildern extends Component {
+export default class MountingChildren extends Component {
   constructor(props) {
     super(props);
 

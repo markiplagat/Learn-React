@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MountingChildren from './MountingChildern';
+import MountingChildren from './MountingChildren';
 
 class Mounting extends Component {
   constructor(props) {

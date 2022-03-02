@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dfa9652-cbed-4d48-92a1-4e1e2fce62cb" name="Default Changelist" comment="Format code">
+    <list default="true" id="2dfa9652-cbed-4d48-92a1-4e1e2fce62cb" name="Default Changelist" comment="Style fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BlogList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Child.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Child.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ClickOutside.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ClickOutside.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EventBind.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EventBind.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FormHandling.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormHandling.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Lists.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Lists.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Mounting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Mounting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MountingChildern.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MountingChildren.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +17,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,7 +45,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RubyModuleManagerSettings">
     <option name="blackListedRootsPaths">
@@ -79,7 +85,9 @@
       <workItem from="1637913891227" duration="6703000" />
       <workItem from="1645777701896" duration="2298000" />
       <workItem from="1646146520567" duration="1024000" />
-      <workItem from="1646147849132" duration="362000" />
+      <workItem from="1646147849132" duration="2121000" />
+      <workItem from="1646162129019" duration="7058000" />
+      <workItem from="1646245193400" duration="2966000" />
     </task>
     <task id="LOCAL-00001" summary="Using useRef">
       <created>1637914713911</created>
@@ -151,7 +159,28 @@
       <option name="project" value="LOCAL" />
       <updated>1646146883590</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Cleanup">
+      <created>1646148490942</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1646148490942</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fetch">
+      <created>1646168666735</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1646168666735</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Style fix">
+      <created>1646200230325</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1646200230326</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +206,10 @@
     <MESSAGE value="Fix authorization bypass" />
     <MESSAGE value="Add prettier" />
     <MESSAGE value="Format code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Format code" />
+    <MESSAGE value="Cleanup" />
+    <MESSAGE value="Fetch" />
+    <MESSAGE value="Style fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
