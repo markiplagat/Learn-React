@@ -164,10 +164,10 @@ function Arrays() {
 
   //***SOME***
   //1. Is there at least one male character?
-  const onemaleCharacter = characters.some((character) => {
+  const oneMaleCharacter = characters.some((character) => {
     return character.gender === 'male';
   });
-  console.log(onemaleCharacter);
+  console.log(oneMaleCharacter);
 
   //2. Is there at least one character with blue eyes?
   const oneBlueEyeCharacter = characters.some((character) => {
