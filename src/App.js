@@ -18,11 +18,12 @@ import UseEffect from './components/UseEffect';
 import Fetch from "./components/Fetch";
 import BlogList from "./components/BlogList";
 import UseContext from "./components/UseContext";
+import UseCallback from "./components/UseCallback";
 
 function App() {
   return (
     <div className="App">
-      <UseContext />
+      <UseCallback />
     </div>
   );
 }
