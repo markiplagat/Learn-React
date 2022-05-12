@@ -1,35 +1,24 @@
 // Sending data back to the parent
-import React from 'react';
+import React, { useState } from 'react';
 
-class Child extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { count: 0 };
-
-    this.outputEvent = this.outputEvent.bind(this);
-  }
-  outputEvent(event) {
+const Child = () => {
+  const [count, setCount] = useState(0);
+  const outputEvent = (event) => {
     // event context comes from the Child
-    this.setState({ count: this.state.count++ });
-  }
+    setCount(count);
+  };
 
+  return (
+    <div>
+      Count: {count}
+      <Child2 clickHandler={outputEvent} />
+    </div>
+  );
+};
+
+class Child2 extends React.Component {
   render() {
-    return (
-      <div>
-        Count: {this.state.count}
-        <Child clickHandler={this.outputEvent} />
-      </div>
-    );
+    return <button onClick={this.props.clickHandler}>Add One More</button>;
   }
 }
-
-// class Child extends React.Component {
-//     render() {
-//         return (
-//             <button onClick={this.props.clickHandler}>
-//                 Add One More
-//             </button>
-//         )
-//     }
-// }
 export default Child;

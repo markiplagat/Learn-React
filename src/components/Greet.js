@@ -1,22 +1,15 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
-class Greet extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: 'Mark',
-      heroName: 'Coder',
-    };
-  }
-  render() {
-    return (
-      <div>
-        <h1>
-          Hello {this.state.name} aka {this.state.heroName}
-        </h1>
-      </div>
-    );
-  }
-}
+const Greet = () => {
+  const [name, serName] = useState('Mark');
+  const [heroName, setHeroName] = useState('Coder');
+  return (
+    <div>
+      <h1>
+        Hello {name} aka {heroName}
+      </h1>
+    </div>
+  );
+};
 
 export default Greet;
