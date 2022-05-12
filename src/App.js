@@ -17,11 +17,12 @@ import TimerUseRef from './components/TimerUseRef';
 import UseEffect from './components/UseEffect';
 import Fetch from "./components/Fetch";
 import BlogList from "./components/BlogList";
+import UseContext from "./components/UseContext";
 
 function App() {
   return (
     <div className="App">
-      <Lists />
+      <UseContext />
     </div>
   );
 }
