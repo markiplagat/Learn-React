@@ -15,10 +15,10 @@ import UseStateHook from './components/UseStateHook';
 import Lists from './components/Lists';
 import TimerUseRef from './components/TimerUseRef';
 import UseEffect from './components/UseEffect';
-import Fetch from "./components/Fetch";
-import BlogList from "./components/BlogList";
-import UseContext from "./components/UseContext";
-import UseCallback from "./components/UseCallback";
+import Fetch from './components/Fetch';
+import BlogList from './components/BlogList';
+import UseContext from './components/UseContext';
+import UseCallback from './components/UseCallback';
 
 function App() {
   return (

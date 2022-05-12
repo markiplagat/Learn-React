@@ -14,7 +14,7 @@ class ClickOutside extends Component {
     }
   };
   render() {
-    return <div/>;
+    return <div />;
   }
 }
 export default ClickOutside;

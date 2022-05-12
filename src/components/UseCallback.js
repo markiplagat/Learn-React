@@ -1,8 +1,8 @@
-import React, {useCallback, useState} from 'react';
+import React, { useCallback, useState } from 'react';
 
 const UseCallback = () => {
-  const [player, setPlayer] = useState("");
-  const [players, setPlayers] = useState(["Messi", "Ronaldo", ]);
+  const [player, setPlayer] = useState('');
+  const [players, setPlayers] = useState(['Messi', 'Ronaldo']);
 
   function handleChangeInput(event) {
     setPlayer(event.target.value);
@@ -11,11 +11,14 @@ const UseCallback = () => {
   function handleAddPlayer() {
     setPlayers(players.concat(player));
   }
-  const handleRemovePlayer = useCallback(player => {
-    setPlayers(players.filter((p) => p !== player));
-  }, [players])
+  const handleRemovePlayer = useCallback(
+    (player) => {
+      setPlayers(players.filter((p) => p !== player));
+    },
+    [players]
+  );
 
-  return(
+  return (
     <React.Fragment>
       <input onChange={handleChangeInput} />
       <button onClick={handleAddPlayer}>Add Player</button>
@@ -25,7 +28,7 @@ const UseCallback = () => {
 };
 
 function PlayerList({ players, handleRemovePlayer }) {
-  return(
+  return (
     <React.Fragment>
       <ul>
         {players.map((player) => (
@@ -39,4 +42,3 @@ function PlayerList({ players, handleRemovePlayer }) {
 }
 
 export default UseCallback;
-

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dfa9652-cbed-4d48-92a1-4e1e2fce62cb" name="Default Changelist" comment="Add propTypes and corrections">
+    <list default="true" id="2dfa9652-cbed-4d48-92a1-4e1e2fce62cb" name="Default Changelist" comment="UseCallback">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Arrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Arrays.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BlogList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Child.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Child.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Greet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Greet.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,15 +30,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "/home/mark/Learn-React/node_modules/prettier",
+    "ruby.rails.projectView.checked": "true",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RubyModuleManagerSettings">
     <option name="blackListedRootsPaths">
       <list>
@@ -82,6 +84,7 @@
       <workItem from="1646245193400" duration="7141000" />
       <workItem from="1652083070567" duration="3539000" />
       <workItem from="1652156611568" duration="16000" />
+      <workItem from="1652381934471" duration="3427000" />
     </task>
     <task id="LOCAL-00001" summary="Using useRef">
       <created>1637914713911</created>
@@ -181,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1646249043166</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="UseContext">
+      <created>1652383253204</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1652383253204</updated>
+    </task>
+    <task id="LOCAL-00016" summary="UseCallback">
+      <created>1652390214862</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1652390214862</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +228,9 @@
     <MESSAGE value="Fetch" />
     <MESSAGE value="Style fix" />
     <MESSAGE value="Add propTypes and corrections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add propTypes and corrections" />
+    <MESSAGE value="UseContext" />
+    <MESSAGE value="UseCallback" />
+    <option name="LAST_COMMIT_MESSAGE" value="UseCallback" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

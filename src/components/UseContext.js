@@ -1,9 +1,9 @@
-import React, {createContext, useContext} from 'react';
+import React, { createContext, useContext } from 'react';
 
 const NameContext = createContext('');
 
 const UseContext = () => {
-  return(
+  return (
     <NameContext.Provider value="mark">
       <Body />
     </NameContext.Provider>
@@ -11,14 +11,12 @@ const UseContext = () => {
 };
 
 const Body = () => {
-  return <Greeting />
+  return <Greeting />;
 };
 
 const Greeting = () => {
-  const name = useContext(NameContext)
-  return(
-    <h1>Welcome, {name}</h1>
-  );
+  const name = useContext(NameContext);
+  return <h1>Welcome, {name}</h1>;
 };
 
 export default UseContext;

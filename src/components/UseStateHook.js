@@ -8,7 +8,8 @@ const UseStateHook = () => {
   };
   return (
     <div>
-      <h2>{name}</h2><button onClick={handleClick}>Change</button>
+      <h2>{name}</h2>
+      <button onClick={handleClick}>Change</button>
     </div>
   );
 };
