@@ -23,7 +23,7 @@ import UseCallback from './components/UseCallback';
 function App() {
   return (
     <div className="App">
-      <UseCallback />
+      <Counter />
     </div>
   );
 }
