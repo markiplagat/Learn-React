@@ -34,14 +34,14 @@ class RefDemo extends Component {
   render() {
     // eslint-disable-next-line no-unused-vars
     const amount = '20,000'.split(',').join('');
-    const a = parseInt(amount);
+    const parsedAmount = parseInt(amount);
     // const b = (a.split(/\,/g,' '));
 
     return (
       <div>
         {amount}
         <br />
-        {a}
+        {parsedAmount}
         <input type="text" value={this.state.amount} />
         {`ksh ${this.state.amount.replace(/\,/g, '')}`}
         {(23, 333, 333).split(',').join('')}

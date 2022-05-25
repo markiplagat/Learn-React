@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Greet = () => {
-  const [name, serName] = useState('Mark');
-  const [heroName, setHeroName] = useState('Coder');
+  const name = "Mark";
+  const heroName = 'Coder';
   return (
     <div>
       <h1>
